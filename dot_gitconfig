@@ -1,0 +1,10 @@
+[user]
+	email = tsb@tsblock.dev
+	name = tsblock
+[core]
+	excludesfile = /Users/user/.gitignore
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

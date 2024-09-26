@@ -2,7 +2,7 @@
 	email = tsb@tsblock.dev
 	name = tsblock
 [core]
-	excludesfile = /Users/user/.gitignore
+	excludesfile = ~/.gitignore
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

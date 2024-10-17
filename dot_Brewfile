@@ -20,6 +20,7 @@ brew "lazygit"
 brew "libffi"
 brew "libtool"
 brew "magic-wormhole"
+brew "mas"
 brew "ncdu"
 brew "neovim"
 brew "node"
@@ -78,6 +79,10 @@ cask "tor-browser"
 cask "veracrypt"
 cask "visual-studio-code"
 cask "vmware-horizon-client"
+mas "Actions", id: 1586435171
+mas "Amphetamine", id: 937984704
+mas "Outline", id: 1356178125
+mas "Tomito", id: 1526042938
 vscode "evzen-wybitul.magic-racket"
 vscode "github.codespaces"
 vscode "jdinhlife.gruvbox"

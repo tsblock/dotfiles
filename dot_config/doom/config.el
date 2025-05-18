@@ -42,6 +42,9 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
+;; Make title bar normal sized
+(tool-bar-mode 0)
+
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
@@ -74,7 +77,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-;; Ultra scroll mac package settings
+;; Ultra-scroll-mac package settings
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 (use-package! ultra-scroll-mac
   :init
@@ -94,12 +97,12 @@
 (setq read-process-output-max (* 2 1024 1024)
           process-adaptive-read-buffering nil)
 
-;;(setq fast-but-imprecise-scrolling t
-      ;;redisplay-skip-fontification-on-input t
-      ;;inhibit-compacting-font-caches t)
+(setq fast-but-imprecise-scrolling t
+      redisplay-skip-fontification-on-input t
+      inhibit-compacting-font-caches t)
 ;;
-;;(setq idle-update-delay 1.0)
-;;(setq company-idle-delay 0.35)
+(setq idle-update-delay 0.500)
+(setq company-idle-delay 0.35)
 (setq company-minimum-prefix-length 1)
 (setq lsp-idle-delay 0.1)
 ;; Garbage collector stuff

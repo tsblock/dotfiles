@@ -48,6 +48,9 @@ defaults write NSGlobalDomain com.apple.mouse.linear -bool "true"
 # Always show scroll bar
 defaults write -globalDomain AppleShowScrollBars 'Always'
 
+# Preview: hide sidebar by default
+defaults write com.apple.Preview PVPDFSuppressSidebarOnOpening true
+
 
 ##########################
 # Finder settings
